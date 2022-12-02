@@ -1,6 +1,6 @@
-# LAB - Class 03
+# LAB - Class 04
 
-## Project: Basic API Server
+## Project:  API Server
 
 ### Author: Steven Rejdukowski
 
