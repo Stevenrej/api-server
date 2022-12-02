@@ -11,7 +11,7 @@ Build a REST API using Express, by creating a proper series of endpoints that pe
 ### Links and Resources
 
 - [ci/cd](https://github.com/Stevenrej/api-server/actions/new) (GitHub Actions)
-- [prod deployment](https://basic-api-server-prod-pduk.onrender.com/)
+- [prod deployment](https://api-server-prod-rwla.onrender.com/)
 
 
 ### Setup
