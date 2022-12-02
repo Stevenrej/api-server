@@ -10,7 +10,7 @@ Build a REST API using Express, by creating a proper series of endpoints that pe
 
 ### Links and Resources
 
-- [ci/cd](https://github.com/Stevenrej/basic-api-server/actions/new) (GitHub Actions)
+- [ci/cd](https://github.com/Stevenrej/api-server/actions/new) (GitHub Actions)
 - [prod deployment](https://basic-api-server-prod-pduk.onrender.com/)
 
 
@@ -45,6 +45,13 @@ see `.env.sample`
 - PUT : `/customer/id:`
 - DELETE : `/customer/id:`
 
+- Feature Three: Orders Database
+- GET : `/order`
+- GET : `/order/id:`
+- POST: `/order`
+- PUT : `/order/id:`
+- DELETE : `/order/id:`
+
 #### Tests
 
 - How do you run tests?
@@ -60,4 +67,4 @@ npm test
 
 #### UML
 
-![UML](class3lab.jpeg)
+![UML](lab4.jpeg)
