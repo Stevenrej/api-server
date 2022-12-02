@@ -103,6 +103,7 @@ describe('REST API',  () => {
       amount: 6,
       type: 'hat'
     });
+    
 
     expect(response.status).toEqual(200);
     expect(response.body.name).toEqual('fedora');

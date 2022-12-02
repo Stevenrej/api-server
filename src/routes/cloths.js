@@ -47,8 +47,8 @@ router.put('/cloths/:id', async (req, res, next) => {
 router.delete('/cloths/:id', async (req, res, next) => {
   try {
     let id = parseInt(req.params.id);
-    await clothInterface.destroy({where: {id}});
-    res.status(200).send('cloths deleted');
+    await clothInterface.destroy(id);
+    res.status(200).send('cloth deleted');
   } catch(e){
     next(e);
   }
